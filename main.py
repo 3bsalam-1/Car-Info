@@ -5,6 +5,7 @@ import joblib
 import os 
 from fastapi.middleware.cors import CORSMiddleware
 
+app = FastAPI()
 # Add this before or right after initializing app
 app.add_middleware(
     CORSMiddleware,
@@ -13,7 +14,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],)
 
-app = FastAPI()
 
 # Load the machine learning model and datasets once at startup
 model = joblib.load(os.path.join(os.path.dirname(__file__), 'gradient_boosting_model_v2.joblib'))
