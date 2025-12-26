@@ -361,8 +361,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [@3bsalam-1](https://github.com/3bsalam-1)
+- LinkedIn: [Ahmed Abdulsalam](https://linkedin.com/in/ahmed-abdulsalam1)
 
 ## 🙏 Acknowledgments
 
@@ -376,6 +376,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ Star this repository if you find it helpful!**
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by Ahmed Abdulsalam
 
 </div>
