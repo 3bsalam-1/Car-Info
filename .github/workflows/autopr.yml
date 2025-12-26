@@ -33,7 +33,7 @@ jobs:
           author: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}">
           body:
             Pull Request.
-          token: ${{ secrets.APPROVER_DEMO }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           delete-branch: true
 
       - name: Approve Pull Request1
@@ -45,7 +45,7 @@ jobs:
       - name: Merge Pull request1
         uses: juliangruber/merge-pull-request-action@v1
         with:
-          github-token: ${{ secrets.APPROVER_DEMO }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           number: ${{ steps.demo-1.outputs.pull-request-number }}
           method: squash
 
@@ -65,7 +65,7 @@ jobs:
           author: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <${{ env.GIT_COMMIT_AUTHOR_EMAIL }}">
           body:
             Pull Request..
-          token: ${{ secrets.APPROVER_DEMO }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           delete-branch: true
 
       - name: Approve Pull Request2
@@ -77,6 +77,6 @@ jobs:
       - name: Merge Pull request2
         uses: juliangruber/merge-pull-request-action@v1
         with:
-          github-token: ${{ secrets.APPROVER_DEMO }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           number: ${{ steps.demo-2.outputs.pull-request-number }}
           method: squash
