@@ -360,7 +360,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Your Name**
+**Ahmed Mohamed**
 - GitHub: [@3bsalam-1](https://github.com/3bsalam-1)
 - LinkedIn: [Ahmed Abdulsalam](https://linkedin.com/in/ahmed-abdulsalam1)
 
